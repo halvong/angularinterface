@@ -1,8 +1,9 @@
 Angularinterface, Linkedin 
-6/24/2020, Wed
+
+6/25/2020, Thurs
 
 
-
+https://www.linkedin.com/learning/angular-building-an-interface/passing-data-to-subcomponents
 #url
 http://localhost:4200/
 
