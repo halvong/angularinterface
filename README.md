@@ -2,8 +2,10 @@ Angularinterface, Linkedin
 
 6/25/2020, Thurs
 
+Filtering component with pipes
 
-https://www.linkedin.com/learning/angular-building-an-interface/passing-data-to-subcomponents
+https://www.linkedin.com/learning/angular-building-an-interface/filtering-dates-with-pipes
+
 #url
 http://localhost:4200/
 
@@ -12,6 +14,7 @@ https://gist.github.com/planetoftheweb/6756594f23c3bd6df6b637eb95345470
 https://gist.github.com/planetoftheweb/b5047cdb6a0ed1df305114f691542f11
 https://gist.github.com/planetoftheweb/068a966ea3626bc3097da5276ef58bad
 https://gist.github.com/planetoftheweb/d9756dad7378dd3ea1265a273f288f12
+https://gist.github.com/planetoftheweb/150aafdbb8b06f26b00932e9b3d441a5
 
 #commands
 ng g c components/add

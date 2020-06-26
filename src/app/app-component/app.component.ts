@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { without } from 'lodash';
+
+library.add(faTimes);
 
 @Component({
   selector: 'app-root',
@@ -8,14 +13,17 @@ import {HttpClient} from '@angular/common/http';
 
 export class AppComponent implements OnInit {
   title = 'Wisdom Pet Medicine';
+  theList: object[];
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient) {}
 
+  deleteApt(theApt: object) {
+    this.theList = without(this.theList, theApt);
   }
 
   ngOnInit(): void {
-    this.http.get('../assets/data.json').subscribe(data => {
-      console.log(data);
+    this.http.get<object[]>('../assets/data.json').subscribe(data => {
+      this.theList = data;
     });
   }
 
