@@ -1,27 +1,34 @@
-# Angularinterface
+Angularinterface, Linkedin 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+6/26/2020, Fri
 
-## Development server
+Filtering component with pipes
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+https://www.linkedin.com/learning/angular-building-an-interface/filtering-dates-with-pipes
 
-## Code scaffolding
+#url
+http://localhost:4200/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#codes
+https://gist.github.com/planetoftheweb/6756594f23c3bd6df6b637eb95345470
+https://gist.github.com/planetoftheweb/b5047cdb6a0ed1df305114f691542f11
+https://gist.github.com/planetoftheweb/068a966ea3626bc3097da5276ef58bad
+https://gist.github.com/planetoftheweb/d9756dad7378dd3ea1265a273f288f12
+https://gist.github.com/planetoftheweb/150aafdbb8b06f26b00932e9b3d441a5
+https://gist.github.com/planetoftheweb/b9780444271125c64e6c2e59bef805fe
 
-## Build
+#commands
+ng g c components/add
+ng g c components/search
+ng g c components/list
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+npm i --save-dev bootstrap
+npm i --save-dev @fortawesome/fontawesome-svg-core
+npm i --save-dev @fortawesome/free-solid-svg-icons
+npm i --save-dev @fortawesome/angular-fontawesome
+npm i --save-dev jquery
+npm i --save-dev popper.js
+npm i --save lodash
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#starts
+ng serve
