@@ -1,6 +1,6 @@
 Angularinterface, Linkedin 
 
-6/25/2020, Thurs
+6/26/2020, Fri
 
 Filtering component with pipes
 
@@ -15,6 +15,7 @@ https://gist.github.com/planetoftheweb/b5047cdb6a0ed1df305114f691542f11
 https://gist.github.com/planetoftheweb/068a966ea3626bc3097da5276ef58bad
 https://gist.github.com/planetoftheweb/d9756dad7378dd3ea1265a273f288f12
 https://gist.github.com/planetoftheweb/150aafdbb8b06f26b00932e9b3d441a5
+https://gist.github.com/planetoftheweb/b9780444271125c64e6c2e59bef805fe
 
 #commands
 ng g c components/add
