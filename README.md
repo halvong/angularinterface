@@ -1,10 +1,10 @@
 Angularinterface, Linkedin 
 
-6/26/2020, Fri
+7/8/2020, Wed
 
-Filtering component with pipes
+Creating your search component
 
-https://www.linkedin.com/learning/angular-building-an-interface/filtering-dates-with-pipes
+https://www.linkedin.com/learning/angular-building-an-interface/creating-your-search-component
 
 #url
 http://localhost:4200/
